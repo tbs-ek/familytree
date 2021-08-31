@@ -293,7 +293,7 @@ var data = [
   {"name": "Daniela Hernandez",        "class": "2018 AΧ", "active": "n", "parent": "Kelly Flood"},
   {"name": "Emma Atkins",        "class": "2018 AΧ", "active": "n", "parent": "Tabetha Van Heest"},
   {"name": "Ethan Brandt",        "class": "2018 AΧ", "active": "y", "parent": "Emma Suchard"},
-  {"name": "Jaquelyn Panaro",        "class": "2018 AΧ", "active": "n", "parent": "Dominique Stumbaugh"},
+  {"name": "Jaquelyn Panaro",        "class": "2018 AΧ", "active": "n", "parent": "Nique Stumbaugh"},
   {"name": "James Eichenbaum",        "class": "2018 AΧ", "active": "y", "parent": "Shelby Olson"},
   {"name": "Jana Boksan",        "class": "2018 AΧ", "active": "y", "parent": "Jordan Briggs"},
   {"name": "Jazmine Stringfellow",        "class": "2018 AΧ", "active": "n", "parent": "Alexa Camacho Sanchez"},
