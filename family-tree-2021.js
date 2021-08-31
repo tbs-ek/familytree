@@ -30,7 +30,7 @@ var data = [
     {"name": "Brieanne Martin",        "class": "2000 AΔ", "active": "n", "parent": "Alyssa White" },
     {"name": "Alison Dyer",        "class": "2000 AΔ", "active": "n", "parent": "Anne Marie Selaya" },
     {"name": "Andrea Giraldo",        "class": "2000 AΔ", "active": "n", "parent": "Epsilon Kappa" },
-    {"name": "Heather Jacobs",        "class": "2000 AΔ", "active": "n", "parent": "Kristen Madsen" },
+    {"name": "Heather Jacobs",        "class": "2000 AΔ", "active": "n", "parent": "Kristin Madsen" },
     {"name": "Brooke Wilson",        "class": "2000 AΔ", "active": "n", "parent": "Katherine Jankaew" },
     {"name": "Emily Dodges",        "class": "2000 AΔ", "active": "n", "parent": "Sarah Neiss" },
 
