@@ -115,24 +115,24 @@ var data = [
 	{"name": "Cynthia Scott",        "class": "2006 AK", "active": "n", "parent": "Rebecca Claasen" },
 	{"name": "Nadya Seal",        "class": "2006 AK", "active": "n", "parent": "Epsilon Kappa" },
 
-	//Alpha Lambda 2007 AΛ›
-	{"name": "Catherine Lindsay",        "class": "2007 AΛ›", "active": "n", "parent": "Emily Elftman" },
-	{"name": "Danae Paterson",        "class": "2007 AΛ›", "active": "n", "parent": "Tracy Vahle" },
-	{"name": "Vanessa Houseman",        "class": "2007 AΛ›", "active": "n", "parent": "Stephanie Tashiro" },
-	{"name": "Helen Cordova",        "class": "2007 AΛ›", "active": "n", "parent": "Julie Cozen-Harel" },
-	{"name": "Shelley Patel",        "class": "2007 AΛ›", "active": "n", "parent": "VanLin Chan" },
-	{"name": "Rosie Rice",        "class": "2007 AΛ›", "active": "n", "parent": "Aditi Gobburu" },
-	{"name": "Kelly Spiva",        "class": "2007 AΛ›", "active": "n", "parent": "Mary Anne Schmitt" },
-	{"name": "Mary Jewett",        "class": "2007 AΛ›", "active": "n", "parent": "Caitlin Nunn" },
-	{"name": "Anthony Barbir",        "class": "2007 AΛ›", "active": "n", "parent": "Megan Fay" },
-	{"name": "Juliet Lee",        "class": "2007 AΛ›", "active": "n", "parent": "Katie Wolf" },
-	{"name": "Erin Cubbon",        "class": "2007 AΛ›", "active": "n", "parent": "Marie Schmidt" },
-	{"name": "Sarah Young",        "class": "2007 AΛ›", "active": "n", "parent": "Kristen Silverberg" },
-	{"name": "Bianca Shulaker",        "class": "2007 AΛ›", "active": "n", "parent": "Jacqueline Ellis" },
-	{"name": "Natasha Feier",        "class": "2007 AΛ›", "active": "n", "parent": "Mary Emfinger" },
-	{"name": "Tootie Merchant",        "class": "2007 AΛ›", "active": "n", "parent": "Cynthia Scott" },
-	{"name": "Margarete Krick",        "class": "2007 AΛ›", "active": "n", "parent": "Jennifer Comstock" },
-	{"name": "Natalie Jones",        "class": "2007 AΛ›", "active": "n", "parent": "Nadya Seal" },
+	//Alpha Lambda 2007 AΛ
+	{"name": "Catherine Lindsay",        "class": "2007 AΛ", "active": "n", "parent": "Emily Elftman" },
+	{"name": "Danae Paterson",        "class": "2007 AΛ", "active": "n", "parent": "Tracy Vahle" },
+	{"name": "Vanessa Houseman",        "class": "2007 AΛ", "active": "n", "parent": "Stephanie Tashiro" },
+	{"name": "Helen Cordova",        "class": "2007 AΛ", "active": "n", "parent": "Julie Cozen-Harel" },
+	{"name": "Shelley Patel",        "class": "2007 AΛ", "active": "n", "parent": "VanLin Chan" },
+	{"name": "Rosie Rice",        "class": "2007 AΛ", "active": "n", "parent": "Aditi Gobburu" },
+	{"name": "Kelly Spiva",        "class": "2007 AΛ", "active": "n", "parent": "Mary Anne Schmitt" },
+	{"name": "Mary Jewett",        "class": "2007 AΛ", "active": "n", "parent": "Caitlin Nunn" },
+	{"name": "Anthony Barbir",        "class": "2007 AΛ", "active": "n", "parent": "Megan Fay" },
+	{"name": "Juliet Lee",        "class": "2007 AΛ", "active": "n", "parent": "Katie Wolf" },
+	{"name": "Erin Cubbon",        "class": "2007 AΛ", "active": "n", "parent": "Marie Schmidt" },
+	{"name": "Sarah Young",        "class": "2007 AΛ", "active": "n", "parent": "Kristen Silverberg" },
+	{"name": "Bianca Shulaker",        "class": "2007 AΛ", "active": "n", "parent": "Jacqueline Ellis" },
+	{"name": "Natasha Feier",        "class": "2007 AΛ", "active": "n", "parent": "Mary Emfinger" },
+	{"name": "Tootie Merchant",        "class": "2007 AΛ", "active": "n", "parent": "Cynthia Scott" },
+	{"name": "Margarete Krick",        "class": "2007 AΛ", "active": "n", "parent": "Jennifer Comstock" },
+	{"name": "Natalie Jones",        "class": "2007 AΛ", "active": "n", "parent": "Nadya Seal" },
 
 	//Alpha Mu 2008 AM
 	{"name": "Ashley McFadden",        "class": "2008 AM", "active": "n", "parent": "Vanessa Houseman" },
@@ -399,8 +399,8 @@ data.forEach(function(node) {
 });
 
 // ************** Generate the tree diagram  *****************
-var margin = {top: 20, right: 120, bottom: 20, left: 120},
-width = 5000 - margin.right - margin.left,
+var margin = {top: 20, right: 20, bottom: 20, left: 120},
+width = 3800 - margin.right - margin.left,
 height = 3000 - margin.top - margin.bottom;
 
 var i = 0,
