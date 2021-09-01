@@ -1,76 +1,85 @@
+// THE BIG ARRAY WITH EVERY SISTER'S DATA
+// The big array contains one associative array {} for each sister
+// Each associative array has the following key-value pairs: "name", "class", "active", "parent"
+// some of the later classes also have "bio" key-value pairs
+// but the code that adds bios to the nodes doesn't seem to work
+// ALL YOU HAVE TO DO is add in the latest class of candidates,
+// denote non-actives by changing the “active” attribute to “n”,
+// and
 
 
 var data = [
-    { "name": "Epsilon Kappa",          "class": "1973",  "active": "n", "parent": "null" },
 
-    // Omega 1996 Ω
-    {"name": "Eloise Marquez",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" },
-    {"name": "Samantha Ivers",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" },
+  { "name": "Epsilon Kappa",          "class": "1973",  "active": "n", "parent": "null" },
 
-    // Alpha Alpha 1997 AA
-    {"name": "Jacqueline Henderson",            "class": "1997 AA", "active": "n", "parent": "Epsilon Kappa" },
+  // Omega 1996 Ω
+  {"name": "Eloise Marquez",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" },
+  {"name": "Samantha Ivers",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" },
 
-    // Alpha Beta 1998 AB
-    {"name": "Stephanie Anne Haygood",        "class": "1998 AB", "active": "n", "parent": "Eloise Marquez" },
-    {"name": "Kristin Chong",        "class": "1998 AB", "active": "n", "parent": "Jacqueline Henderson" },
-    {"name": "Kristin Madsen",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
-    {"name": "Hilary Douglas",        "class": "1998 AB", "active": "n", "parent": "Samantha Ivers" },
-    {"name": "Katherine Jankaew",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
+  // Alpha Alpha 1997 AA
+  {"name": "Jacqueline Henderson",            "class": "1997 AA", "active": "n", "parent": "Epsilon Kappa" },
 
-    // Alpha Gamma 1999 AΓ
-    {"name": "Jessmyn Jones",             "class": "1999 AΓ", "active": "n", "parent": "Stephanie Anne Haygood" },
-    {"name": "Alyssa White",             "class": "1999 AΓ", "active": "n", "parent": "Kristin Chong" },
-    {"name": "Anne Marie Selaya",             "class": "1999 AΓ", "active": "n", "parent": "Epsilon Kappa" },
-    {"name": "Marissa Spokes",             "class": "1999 AΓ", "active": "n", "parent": "Hilary Douglas" },
-    {"name": "Sarah Neiss",             "class": "1999 AΓ", "active": "n", "parent": "Katherine Jankaew" },
+  // Alpha Beta 1998 AB
+  {"name": "Stephanie Anne Haygood",        "class": "1998 AB", "active": "n", "parent": "Eloise Marquez" },
+  {"name": "Kristin Chong",        "class": "1998 AB", "active": "n", "parent": "Jacqueline Henderson" },
+  {"name": "Kristin Madsen",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
+  {"name": "Hilary Douglas",        "class": "1998 AB", "active": "n", "parent": "Samantha Ivers" },
+  {"name": "Katherine Jankaew",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
 
-    // Alpha Delta 2000 AΔ
-    {"name": "Allison Painter",        "class": "2000 AΔ", "active": "n", "parent": "Stephanie Anne Haygood" },
-    {"name": "Melissa Waldie",        "class": "2000 AΔ", "active": "n", "parent": "Jessmyn Jones" },
-    {"name": "Brieanne Martin",        "class": "2000 AΔ", "active": "n", "parent": "Alyssa White" },
-    {"name": "Alison Dyer",        "class": "2000 AΔ", "active": "n", "parent": "Anne Marie Selaya" },
-    {"name": "Andrea Giraldo",        "class": "2000 AΔ", "active": "n", "parent": "Epsilon Kappa" },
-    {"name": "Heather Jacobs",        "class": "2000 AΔ", "active": "n", "parent": "Kristin Madsen" },
-    {"name": "Brooke Wilson",        "class": "2000 AΔ", "active": "n", "parent": "Katherine Jankaew" },
-    {"name": "Emily Dodges",        "class": "2000 AΔ", "active": "n", "parent": "Sarah Neiss" },
+  // Alpha Gamma 1999 AΓ
+  {"name": "Jessmyn Jones",             "class": "1999 AΓ", "active": "n", "parent": "Stephanie Anne Haygood" },
+  {"name": "Alyssa White",             "class": "1999 AΓ", "active": "n", "parent": "Kristin Chong" },
+  {"name": "Anne Marie Selaya",             "class": "1999 AΓ", "active": "n", "parent": "Epsilon Kappa" },
+  {"name": "Marissa Spokes",             "class": "1999 AΓ", "active": "n", "parent": "Hilary Douglas" },
+  {"name": "Sarah Neiss",             "class": "1999 AΓ", "active": "n", "parent": "Katherine Jankaew" },
+
+  // Alpha Delta 2000 AΔ
+  {"name": "Allison Painter",        "class": "2000 AΔ", "active": "n", "parent": "Stephanie Anne Haygood" },
+  {"name": "Melissa Waldie",        "class": "2000 AΔ", "active": "n", "parent": "Jessmyn Jones" },
+  {"name": "Brieanne Martin",        "class": "2000 AΔ", "active": "n", "parent": "Alyssa White" },
+  {"name": "Alison Dyer",        "class": "2000 AΔ", "active": "n", "parent": "Anne Marie Selaya" },
+  {"name": "Andrea Giraldo",        "class": "2000 AΔ", "active": "n", "parent": "Epsilon Kappa" },
+  {"name": "Heather Jacobs",        "class": "2000 AΔ", "active": "n", "parent": "Kristin Madsen" },
+  {"name": "Brooke Wilson",        "class": "2000 AΔ", "active": "n", "parent": "Katherine Jankaew" },
+  {"name": "Emily Dodges",        "class": "2000 AΔ", "active": "n", "parent": "Sarah Neiss" },
 
   // Alpha Epsilon 2001 AE
-    {"name": "Rebecca L. Panman",         "class": "2001 AE", "active": "n", "parent": "Stephanie Anne Haygood" },
-    {"name": "Lauren Bower Jordan",         "class": "2001 AE", "active": "n", "parent": "Allison Painter" },
-    {"name": "Vasiliki Garrett",         "class": "2001 AE", "active": "n", "parent": "Alyssa White" },
-    {"name": "Trista Chan",         "class": "2001 AE", "active": "n", "parent": "Alison Dyer" },
-    {"name": "Lucinda Martinez",         "class": "2001 AE", "active": "n", "parent": "Andrea Giraldo" },
-    {"name": "Giana Knight",         "class": "2001 AE", "active": "n", "parent": "Marissa Spokes" },
-    {"name": "Molly B. Jewett",         "class": "2001 AE", "active": "n", "parent": "Brooke Wilson" },
+  {"name": "Rebecca L. Panman",         "class": "2001 AE", "active": "n", "parent": "Stephanie Anne Haygood" },
+  {"name": "Lauren Bower Jordan",         "class": "2001 AE", "active": "n", "parent": "Allison Painter" },
+  {"name": "Vasiliki Garrett",         "class": "2001 AE", "active": "n", "parent": "Alyssa White" },
+  {"name": "Trista Chan",         "class": "2001 AE", "active": "n", "parent": "Alison Dyer" },
+  {"name": "Lucinda Martinez",         "class": "2001 AE", "active": "n", "parent": "Andrea Giraldo" },
+  {"name": "Giana Knight",         "class": "2001 AE", "active": "n", "parent": "Marissa Spokes" },
+  {"name": "Molly B. Jewett",         "class": "2001 AE", "active": "n", "parent": "Brooke Wilson" },
 
   //Alpha Zeta 2002 AZ
-    {"name": "Jennifer Kubit",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
-    {"name": "Kathleen Chiu",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
-    {"name": "Jenny Groenenboom",        "class": "2002 AZ", "active": "n", "parent": "Lauren Bower Jordan" },
-    {"name": "Pam Conder",        "class": "2002 AZ", "active": "n", "parent": "Rebecca L. Panman" },
-    {"name": "Bonnie Marinacci",        "class": "2002 AZ", "active": "n", "parent": "Vasiliki Garrett" },
-    {"name": "Fatima Dela Cruz Sim",        "class": "2002 AZ", "active": "n", "parent": "Alison Dyer" },
-    {"name": "Lisa Coyne",        "class": "2002 AZ", "active": "n", "parent": "Lucinda Martinez" },
-    {"name": "Leslie Chan",        "class": "2002 AZ", "active": "n", "parent": "Epsilon Kappa" },
-    {"name": "Ashley Bonner-Lyon",        "class": "2002 AZ", "active": "n", "parent": "Heather Jacobs" },
-    {"name": "Jennifer Thomasian",        "class": "2002 AZ", "active": "n", "parent": "Emily Dodges" },
+  {"name": "Jennifer Kubit",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
+  {"name": "Kathleen Chiu",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
+  {"name": "Jenny Groenenboom",        "class": "2002 AZ", "active": "n", "parent": "Lauren Bower Jordan" },
+  {"name": "Pam Conder",        "class": "2002 AZ", "active": "n", "parent": "Rebecca L. Panman" },
+  {"name": "Bonnie Marinacci",        "class": "2002 AZ", "active": "n", "parent": "Vasiliki Garrett" },
+  {"name": "Fatima Dela Cruz Sim",        "class": "2002 AZ", "active": "n", "parent": "Alison Dyer" },
+  {"name": "Lisa Coyne",        "class": "2002 AZ", "active": "n", "parent": "Lucinda Martinez" },
+  {"name": "Leslie Chan",        "class": "2002 AZ", "active": "n", "parent": "Epsilon Kappa" },
+  {"name": "Ashley Bonner-Lyon",        "class": "2002 AZ", "active": "n", "parent": "Heather Jacobs" },
+  {"name": "Jennifer Thomasian",        "class": "2002 AZ", "active": "n", "parent": "Emily Dodges" },
 
   // Alpha Eta 2003 AH
-    {"name": "Jessica Yehling",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
-	{"name": "Pamela Felix",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
-	{"name": "Pamela Zai",        "class": "2003 AH", "active": "n", "parent": "Lauren Bower Jordan" },
-	{"name": "Alexis Derrington",        "class": "2003 AH", "active": "n", "parent": "Pam Conder" },
-	{"name": "Justine Chen",        "class": "2003 AH", "active": "n", "parent": "Vasiliki Garrett" },
-	{"name": "Marina Alburger",        "class": "2003 AH", "active": "n", "parent": "Bonnie Marinacci" },
-	{"name": "Elizabeth Stephenson",        "class": "2003 AH", "active": "n", "parent": "Fatima Dela Cruz Sim" },
+  {"name": "Jessica Yehling",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
+  {"name": "Pamela Felix",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
+  {"name": "Pamela Zai",        "class": "2003 AH", "active": "n", "parent": "Lauren Bower Jordan" },
+  {"name": "Alexis Derrington",        "class": "2003 AH", "active": "n", "parent": "Pam Conder" },
+  {"name": "Justine Chen",        "class": "2003 AH", "active": "n", "parent": "Vasiliki Garrett" },
+  {"name": "Marina Alburger",        "class": "2003 AH", "active": "n", "parent": "Bonnie Marinacci" },
+  {"name": "Elizabeth Stephenson",        "class": "2003 AH", "active": "n", "parent": "Fatima Dela Cruz Sim" },
 	{"name": "Michelle Lee Badilla",        "class": "2003 AH", "active": "n", "parent": "Trista Chan" },
-	{"name": "Selena Spaniel",        "class": "2003 AH", "active": "n", "parent": "Alison Dyer" },
+  {"name": "Selena Spaniel",        "class": "2003 AH", "active": "n", "parent": "Alison Dyer" },
 	{"name": "Nicole (Ries) McCormick",        "class": "2003 AH", "active": "n", "parent": "Lisa Coyne" },
 	{"name": "Rosemarie Lerma",        "class": "2003 AH", "active": "n", "parent": "Lucinda Martinez" },
 	{"name": "Melanie Dahl",        "class": "2003 AH", "active": "n", "parent": "Lucinda Martinez" },
-	{"name": "Katie (Hanson) Millsom",        "class": "2003 AH", "active": "n", "parent": "Leslie Chan" },
-	{"name": "Dawn Barton",        "class": "2003 AH", "active": "n", "parent": "Ashley Bonner-Lyon" },
-	{"name": "Rebecca Claasen",        "class": "2003 AH", "active": "n", "parent": "Heather Jacobs" },
+  {"name": "Katie (Hanson) Millsom",        "class": "2003 AH", "active": "n", "parent": "Leslie Chan" },
+  {"name": "Dawn Barton",        "class": "2003 AH", "active": "n", "parent": "Ashley Bonner-Lyon" },
+  {"name": "Rebecca Claasen",        "class": "2003 AH", "active": "n", "parent": "Heather Jacobs" },
 	{"name": "Sarah Bunting",        "class": "2003 AH", "active": "n", "parent": "Epsilon Kappa" },
 	{"name": "Faeron Meldrum-Taylor",        "class": "2003 AH", "active": "n", "parent": "Epsilon Kappa" },
 	{"name": "Sandra Degive",        "class": "2003 AH", "active": "n", "parent": "Molly B. Jewett" },
@@ -370,6 +379,11 @@ var data = [
 ];
 
 
+// THE MAPPING CODE
+
+// IDK WHAT THIS PART DOES HONESTLY
+// IF YOU KNOW JAVASCRIPT AND CAN UNDERSTAND THIS CODE PLEASE ADD COMMENTS EXPLAINING HOW THIS CODE WORKS
+
 var data; // a global
 
 $.getJSON("family-tree-2021.json", function(json) {
@@ -491,7 +505,7 @@ function update(source) {
 	.style("fill", function(d) {
 	    if ( d._children )
 		return "royalblue";
-	    if ( d.class === "2017 BY" )
+	    if ( d.class === "2022 ΒΒ" )
 		return "#C2E0FF";
 	    if ( d.active === "y" )
 		return "gold";
@@ -558,4 +572,3 @@ function click(d) {
     // This comment is here
     update(d);
 }
-//</script>
