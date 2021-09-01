@@ -5,7 +5,7 @@
 // but the code that adds bios to the nodes doesn't seem to work
 // ALL YOU HAVE TO DO is add in the latest class of candidates,
 // denote non-actives by changing the “active” attribute to “n”,
-// and
+// and update the candidate class year/letters under nodeUpdate.select("circle")
 
 
 var data = [
