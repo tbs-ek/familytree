@@ -385,6 +385,7 @@ var data = [
 	{"name": "Kathy Rodriguez",        "class": "2022 ΒB", "active": "y", "parent": "Tatiana Duckworth"},
 	{"name": "Kristal Light",        "class": "2022 ΒB", "active": "y", "parent": "Mia Riedel"},
 	{"name": "Marin Schneider",        "class": "2022 ΒB", "active": "y", "parent": "Amanda Leyel"},
+	{"name": "Myrsini Melia San Marchi",        "class": "2022 ΒB", "active": "y", "parent": "Emma Gloyer"},
 	{"name": "Matthew Niiya",        "class": "2022 ΒB", "active": "y", "parent": "Amanda Leyel"},
 	{"name": "Maxine Knystautas",        "class": "2022 ΒB", "active": "y", "parent": "Mia Riedel"},
 	{"name": "Sylvia Rutkowski",        "class": "2022 ΒB", "active": "y", "parent": "Jovan Romo"},
