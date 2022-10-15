@@ -13,80 +13,80 @@ var data = [
   { "name": "Epsilon Kappa",          "class": "1973",  "active": "n", "parent": "null" },
 
   // Omega 1996 Ω
-  {"name": "Eloise Marquez",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" },
-  {"name": "Samantha Ivers",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" },
+	{"name": "Eloise Marquez",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" }, 
+	{"name": "Samantha Ivers",            "class": "1996 Ω", "active": "n", "parent": "Epsilon Kappa" },
 
   // Alpha Alpha 1997 AA
-  {"name": "Jacqueline Henderson",            "class": "1997 AA", "active": "n", "parent": "Epsilon Kappa" },
+ 	{"name": "Jacqueline Henderson",            "class": "1997 AA", "active": "n", "parent": "Epsilon Kappa" },
 
   // Alpha Beta 1998 AB
-  {"name": "Stephanie Anne Haygood",        "class": "1998 AB", "active": "n", "parent": "Eloise Marquez" },
-  {"name": "Kristin Chong",        "class": "1998 AB", "active": "n", "parent": "Jacqueline Henderson" },
-  {"name": "Kristin Madsen",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
-  {"name": "Hilary Douglas",        "class": "1998 AB", "active": "n", "parent": "Samantha Ivers" },
-  {"name": "Katherine Jankaew",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
+	{"name": "Stephanie Anne Haygood",        "class": "1998 AB", "active": "n", "parent": "Eloise Marquez" },
+	{"name": "Kristin Chong",        "class": "1998 AB", "active": "n", "parent": "Jacqueline Henderson" },
+	{"name": "Kristin Madsen",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
+	{"name": "Hilary Douglas",        "class": "1998 AB", "active": "n", "parent": "Samantha Ivers" },
+	{"name": "Katherine Jankaew",        "class": "1998 AB", "active": "n", "parent": "Epsilon Kappa" },
 
   // Alpha Gamma 1999 AΓ
-  {"name": "Jessmyn Jones",             "class": "1999 AΓ", "active": "n", "parent": "Stephanie Anne Haygood" },
-  {"name": "Alyssa White",             "class": "1999 AΓ", "active": "n", "parent": "Kristin Chong" },
-  {"name": "Anne Marie Selaya",             "class": "1999 AΓ", "active": "n", "parent": "Epsilon Kappa" },
-  {"name": "Marissa Spokes",             "class": "1999 AΓ", "active": "n", "parent": "Hilary Douglas" },
-  {"name": "Sarah Neiss",             "class": "1999 AΓ", "active": "n", "parent": "Katherine Jankaew" },
+	{"name": "Jessmyn Jones",             "class": "1999 AΓ", "active": "n", "parent": "Stephanie Anne Haygood" },
+	{"name": "Alyssa White",             "class": "1999 AΓ", "active": "n", "parent": "Kristin Chong" },
+	{"name": "Anne Marie Selaya",             "class": "1999 AΓ", "active": "n", "parent": "Epsilon Kappa" },
+	{"name": "Marissa Spokes",             "class": "1999 AΓ", "active": "n", "parent": "Hilary Douglas" },
+	{"name": "Sarah Neiss",             "class": "1999 AΓ", "active": "n", "parent": "Katherine Jankaew" },
 
   // Alpha Delta 2000 AΔ
-  {"name": "Allison Painter",        "class": "2000 AΔ", "active": "n", "parent": "Stephanie Anne Haygood" },
-  {"name": "Melissa Waldie",        "class": "2000 AΔ", "active": "n", "parent": "Jessmyn Jones" },
-  {"name": "Brieanne Martin",        "class": "2000 AΔ", "active": "n", "parent": "Alyssa White" },
-  {"name": "Alison Dyer",        "class": "2000 AΔ", "active": "n", "parent": "Anne Marie Selaya" },
-  {"name": "Andrea Giraldo",        "class": "2000 AΔ", "active": "n", "parent": "Epsilon Kappa" },
-  {"name": "Heather Jacobs",        "class": "2000 AΔ", "active": "n", "parent": "Kristin Madsen" },
-  {"name": "Brooke Wilson",        "class": "2000 AΔ", "active": "n", "parent": "Katherine Jankaew" },
-  {"name": "Emily Dodges",        "class": "2000 AΔ", "active": "n", "parent": "Sarah Neiss" },
+	{"name": "Allison Painter",        "class": "2000 AΔ", "active": "n", "parent": "Stephanie Anne Haygood" },
+	{"name": "Melissa Waldie",        "class": "2000 AΔ", "active": "n", "parent": "Jessmyn Jones" },
+	{"name": "Brieanne Martin",        "class": "2000 AΔ", "active": "n", "parent": "Alyssa White" },
+	{"name": "Alison Dyer",        "class": "2000 AΔ", "active": "n", "parent": "Anne Marie Selaya" },
+	{"name": "Andrea Giraldo",        "class": "2000 AΔ", "active": "n", "parent": "Epsilon Kappa" },
+	{"name": "Heather Jacobs",        "class": "2000 AΔ", "active": "n", "parent": "Kristin Madsen" },
+	{"name": "Brooke Wilson",        "class": "2000 AΔ", "active": "n", "parent": "Katherine Jankaew" },
+	{"name": "Emily Dodges",        "class": "2000 AΔ", "active": "n", "parent": "Sarah Neiss" },
 
   // Alpha Epsilon 2001 AE
-  {"name": "Rebecca L. Panman",         "class": "2001 AE", "active": "n", "parent": "Stephanie Anne Haygood" },
-  {"name": "Lauren Bower Jordan",         "class": "2001 AE", "active": "n", "parent": "Allison Painter" },
-  {"name": "Vasiliki Garrett",         "class": "2001 AE", "active": "n", "parent": "Alyssa White" },
-  {"name": "Trista Chan",         "class": "2001 AE", "active": "n", "parent": "Alison Dyer" },
-  {"name": "Lucinda Martinez",         "class": "2001 AE", "active": "n", "parent": "Andrea Giraldo" },
-  {"name": "Giana Knight",         "class": "2001 AE", "active": "n", "parent": "Marissa Spokes" },
-  {"name": "Molly B. Jewett",         "class": "2001 AE", "active": "n", "parent": "Brooke Wilson" },
+	{"name": "Rebecca L. Panman",         "class": "2001 AE", "active": "n", "parent": "Stephanie Anne Haygood" },
+	{"name": "Lauren Bower Jordan",         "class": "2001 AE", "active": "n", "parent": "Allison Painter" },
+	{"name": "Vasiliki Garrett",         "class": "2001 AE", "active": "n", "parent": "Alyssa White" },
+	{"name": "Trista Chan",         "class": "2001 AE", "active": "n", "parent": "Alison Dyer" },
+	{"name": "Lucinda Martinez",         "class": "2001 AE", "active": "n", "parent": "Andrea Giraldo" },
+	{"name": "Giana Knight",         "class": "2001 AE", "active": "n", "parent": "Marissa Spokes" },
+	{"name": "Molly B. Jewett",         "class": "2001 AE", "active": "n", "parent": "Brooke Wilson" },
 
   //Alpha Zeta 2002 AZ
-  {"name": "Jennifer Kubit",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
-  {"name": "Kathleen Chiu",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
-  {"name": "Jenny Groenenboom",        "class": "2002 AZ", "active": "n", "parent": "Lauren Bower Jordan" },
-  {"name": "Pam Conder",        "class": "2002 AZ", "active": "n", "parent": "Rebecca L. Panman" },
-  {"name": "Bonnie Marinacci",        "class": "2002 AZ", "active": "n", "parent": "Vasiliki Garrett" },
-  {"name": "Fatima Dela Cruz Sim",        "class": "2002 AZ", "active": "n", "parent": "Alison Dyer" },
-  {"name": "Lisa Coyne",        "class": "2002 AZ", "active": "n", "parent": "Lucinda Martinez" },
-  {"name": "Leslie Chan",        "class": "2002 AZ", "active": "n", "parent": "Epsilon Kappa" },
-  {"name": "Ashley Bonner-Lyon",        "class": "2002 AZ", "active": "n", "parent": "Heather Jacobs" },
-  {"name": "Jennifer Thomasian",        "class": "2002 AZ", "active": "n", "parent": "Emily Dodges" },
+	{"name": "Jennifer Kubit",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
+	{"name": "Kathleen Chiu",        "class": "2002 AZ", "active": "n", "parent": "Melissa Waldie" },
+	{"name": "Jenny Groenenboom",        "class": "2002 AZ", "active": "n", "parent": "Lauren Bower Jordan" },
+	{"name": "Pam Conder",        "class": "2002 AZ", "active": "n", "parent": "Rebecca L. Panman" },
+	{"name": "Bonnie Marinacci",        "class": "2002 AZ", "active": "n", "parent": "Vasiliki Garrett" },
+	{"name": "Fatima Dela Cruz Sim",        "class": "2002 AZ", "active": "n", "parent": "Alison Dyer" },
+	{"name": "Lisa Coyne",        "class": "2002 AZ", "active": "n", "parent": "Lucinda Martinez" },
+	{"name": "Leslie Chan",        "class": "2002 AZ", "active": "n", "parent": "Epsilon Kappa" },
+	{"name": "Ashley Bonner-Lyon",        "class": "2002 AZ", "active": "n", "parent": "Heather Jacobs" },
+	{"name": "Jennifer Thomasian",        "class": "2002 AZ", "active": "n", "parent": "Emily Dodges" },
 
   // Alpha Eta 2003 AH
-  {"name": "Jessica Yehling",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
-  {"name": "Pamela Felix",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
-  {"name": "Pamela Zai",        "class": "2003 AH", "active": "n", "parent": "Lauren Bower Jordan" },
-  {"name": "Alexis Derrington",        "class": "2003 AH", "active": "n", "parent": "Pam Conder" },
-  {"name": "Justine Chen",        "class": "2003 AH", "active": "n", "parent": "Vasiliki Garrett" },
-  {"name": "Marina Alburger",        "class": "2003 AH", "active": "n", "parent": "Bonnie Marinacci" },
-  {"name": "Elizabeth Stephenson",        "class": "2003 AH", "active": "n", "parent": "Fatima Dela Cruz Sim" },
+	{"name": "Jessica Yehling",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
+	{"name": "Pamela Felix",        "class": "2003 AH", "active": "n", "parent": "Melissa Waldie" },
+	{"name": "Pamela Zai",        "class": "2003 AH", "active": "n", "parent": "Lauren Bower Jordan" },
+	{"name": "Alexis Derrington",        "class": "2003 AH", "active": "n", "parent": "Pam Conder" },
+	{"name": "Justine Chen",        "class": "2003 AH", "active": "n", "parent": "Vasiliki Garrett" },
+	{"name": "Marina Alburger",        "class": "2003 AH", "active": "n", "parent": "Bonnie Marinacci" },
+	{"name": "Elizabeth Stephenson",        "class": "2003 AH", "active": "n", "parent": "Fatima Dela Cruz Sim" },
 	{"name": "Michelle Lee Badilla",        "class": "2003 AH", "active": "n", "parent": "Trista Chan" },
-  {"name": "Selena Spaniel",        "class": "2003 AH", "active": "n", "parent": "Alison Dyer" },
+	{"name": "Selena Spaniel",        "class": "2003 AH", "active": "n", "parent": "Alison Dyer" },
 	{"name": "Nicole (Ries) McCormick",        "class": "2003 AH", "active": "n", "parent": "Lisa Coyne" },
 	{"name": "Rosemarie Lerma",        "class": "2003 AH", "active": "n", "parent": "Lucinda Martinez" },
 	{"name": "Melanie Dahl",        "class": "2003 AH", "active": "n", "parent": "Lucinda Martinez" },
-  {"name": "Katie (Hanson) Millsom",        "class": "2003 AH", "active": "n", "parent": "Leslie Chan" },
-  {"name": "Dawn Barton",        "class": "2003 AH", "active": "n", "parent": "Ashley Bonner-Lyon" },
-  {"name": "Rebecca Claasen",        "class": "2003 AH", "active": "n", "parent": "Heather Jacobs" },
+	{"name": "Katie (Hanson) Millsom",        "class": "2003 AH", "active": "n", "parent": "Leslie Chan" },
+	{"name": "Dawn Barton",        "class": "2003 AH", "active": "n", "parent": "Ashley Bonner-Lyon" },
+	{"name": "Rebecca Claasen",        "class": "2003 AH", "active": "n", "parent": "Heather Jacobs" },
 	{"name": "Sarah Bunting",        "class": "2003 AH", "active": "n", "parent": "Epsilon Kappa" },
 	{"name": "Faeron Meldrum-Taylor",        "class": "2003 AH", "active": "n", "parent": "Epsilon Kappa" },
 	{"name": "Sandra Degive",        "class": "2003 AH", "active": "n", "parent": "Molly B. Jewett" },
 	{"name": "Laura Dawson",        "class": "2003 AH", "active": "n", "parent": "Jennifer Thomasian" },
 	{"name": "Gilda Barboza",        "class": "2003 AH", "active": "n", "parent": "Emily Dodges" },
 
-	//Alpha Theta 2004 AΘ
+  //Alpha Theta 2004 AΘ
 	{"name": "Hilary Strong",        "class": "2004 AΘ", "active": "n", "parent": "Jessica Yehling" },
 	{"name": "Judy Chan",        "class": "2004 AΘ", "active": "n", "parent": "Marina Alburger" },
 	{"name": "Jennifer Von Dran",        "class": "2004 AΘ", "active": "n", "parent": "Fatima Dela Cruz Sim" },
@@ -98,7 +98,7 @@ var data = [
 	{"name": "Cassie Fay Harris",        "class": "2004 AΘ", "active": "n", "parent": "Dawn Barton" },
 	{"name": "Jennifer Comstock",        "class": "2004 AΘ", "active": "n", "parent": "Faeron Meldrum-Taylor" },
 
-	//Alpha Iota 2005 AI
+  //Alpha Iota 2005 AI
 	{"name": "Stephanie Tashiro",        "class": "2005 AI", "active": "n", "parent": "Hilary Strong" },
 	{"name": "VanLin Chan",        "class": "2005 AI", "active": "n", "parent": "Alexis Derrington" },
 	{"name": "Mary Anne Schmitt",        "class": "2005 AI", "active": "n", "parent": "Jennifer Von Dran" },
@@ -108,7 +108,7 @@ var data = [
 	{"name": "Jacqueline Ellis",        "class": "2005 AI", "active": "n", "parent": "Kristen Silverberg" },
 	{"name": "Jumy Chan",        "class": "2005 AI", "active": "n", "parent": "Jennifer Dela Cruz Sim" },
 
-	//Alpha Kappa 2006 AK
+  //Alpha Kappa 2006 AK
 	{"name": "Emily Elftman",        "class": "2006 AK", "active": "n", "parent": "Hilary Strong" },
 	{"name": "Tracy Vahle",        "class": "2006 AK", "active": "n", "parent": "Stephanie Tashiro" },
 	{"name": "Julie Cozen-Harel",        "class": "2006 AK", "active": "n", "parent": "VanLin Chan" },
@@ -124,7 +124,7 @@ var data = [
 	{"name": "Cynthia Scott",        "class": "2006 AK", "active": "n", "parent": "Rebecca Claasen" },
 	{"name": "Nadya Seal",        "class": "2006 AK", "active": "n", "parent": "Epsilon Kappa" },
 
-	//Alpha Lambda 2007 AΛ
+  //Alpha Lambda 2007 AΛ
 	{"name": "Catherine Lindsay",        "class": "2007 AΛ", "active": "n", "parent": "Emily Elftman" },
 	{"name": "Danae Paterson",        "class": "2007 AΛ", "active": "n", "parent": "Tracy Vahle" },
 	{"name": "Vanessa Houseman",        "class": "2007 AΛ", "active": "n", "parent": "Stephanie Tashiro" },
@@ -143,7 +143,7 @@ var data = [
 	{"name": "Margarete Krick",        "class": "2007 AΛ", "active": "n", "parent": "Jennifer Comstock" },
 	{"name": "Natalie Jones",        "class": "2007 AΛ", "active": "n", "parent": "Nadya Seal" },
 
-	//Alpha Mu 2008 AM
+  //Alpha Mu 2008 AM
 	{"name": "Ashley McFadden",        "class": "2008 AM", "active": "n", "parent": "Vanessa Houseman" },
 	{"name": "Kristen Torres",        "class": "2008 AM", "active": "n", "parent": "Helen Cordova" },
 	{"name": "Helen Durand",        "class": "2008 AM", "active": "n", "parent": "Shelley Patel" },
@@ -153,7 +153,7 @@ var data = [
 	{"name": "Krystina Johnson",        "class": "2008 AM", "active": "n", "parent": "Natasha Feier" },
 	{"name": "Rachel Goldman",        "class": "2008 AM", "active": "n", "parent": "Tootie Merchant" },
 
-	//Alpha Nu 2009 AN
+  //Alpha Nu 2009 AN
 	{"name": "Ellen Dempsey",        "class": "2009 AN", "active": "n", "parent": "Catherine Lindsay" },
 	{"name": "Rebecca Toda",        "class": "2009 AN", "active": "n", "parent": "Danae Paterson" },
 	{"name": "Marlee Newman",        "class": "2009 AN", "active": "n", "parent": "Ashley McFadden" },
@@ -161,7 +161,7 @@ var data = [
 	{"name": "Anna Schmahl",        "class": "2009 AN", "active": "n", "parent": "Krystina Johnson" },
 	{"name": "Arit John",        "class": "2009 AN", "active": "n", "parent": "Rachel Goldman" },
 
-	//Alpha Xi 2010 AΞ
+  //Alpha Xi 2010 AΞ
 	{"name": "Amanda Michael",        "class": "2010 AΞ", "active": "n", "parent": "Ashley McFadden" },
 	{"name": "Justin Grant",        "class": "2010 AΞ", "active": "n", "parent": "Helen Cordova" },
 	{"name": "Nathalie Ferare",        "class": "2010 AΞ", "active": "n", "parent": "Helen Durand" },
@@ -171,7 +171,7 @@ var data = [
 	{"name": "Keri Downs",        "class": "2010 AΞ", "active": "n", "parent": "Betsy Bentler" },
 	{"name": "Sarah Cox",        "class": "2010 AΞ", "active": "n", "parent": "Anna Schmahl" },
 
-	//Alpha Omicron 2011 AO
+  //Alpha Omicron 2011 AO
 	{"name": "Nastaisha Allen",        "class": "2011 AO", "active": "n", "parent": "Arit John" },
 	{"name": "Phil Caltabiano",        "class": "2011 AO", "active": "n", "parent": "Epsilon Kappa" },
 	{"name": "Cindy Chavez",        "class": "2011 AO", "active": "n", "parent": "Rachel Goldman" },
@@ -186,7 +186,7 @@ var data = [
 	{"name": "Micah Shaw",        "class": "2011 AO", "active": "n", "parent": "Rebecca Toda" },
 	{"name": "Audrey Urrutia",        "class": "2011 AO", "active": "n", "parent": "Katie Due" },
 
-	//Alpha Pi 2012 AΠ
+  //Alpha Pi 2012 AΠ
 	{"name": "Julia Aguilar",        "class": "2012 AΠ ", "active": "n", "parent": "Cindy Chavez" },
 	{"name": "Emily Crook",        "class": "2012 AΠ ", "active": "n", "parent": "Guillermo Cisneros, Jr." },
 	{"name": "Jing Feng",        "class": "2012 AΠ ", "active": "n", "parent": "Kaylee Griffith" },
@@ -201,7 +201,7 @@ var data = [
 	{"name": "Mandy Wong",        "class": "2012 AΠ ", "active": "n", "parent": "Melanie Lim" },
 	{"name": "May Zhang",        "class": "2012 AΠ ", "active": "n", "parent": "Nastaisha Allen" },
 
-	//Alpha Rho 2013 AP
+  //Alpha Rho 2013 AP
 	{"name": "Christine Canilao",        "class": "2013 AP", "active": "n", "parent": "Lauren Sevigny", "bio": "" },
 	{"name": "Brenna Gibbs",        "class": "2013 AP", "active": "n", "parent": "Melanie Lim", "bio": "" },
 	{"name": "ReJoyce Green",        "class": "2013 AP", "active": "n", "parent": "Emily Crook", "bio": "" },
@@ -217,7 +217,7 @@ var data = [
 	{"name": "Christopher Torres",        "class": "2013 AP", "active": "n", "parent": "Anthony Huerta", "bio": "http://www.tbsek.org/sisters/christopher-torres" },
 	{"name": "Teresa Urrutia",        "class": "2013 AP", "active": "n", "parent": "May Zhang", "bio": "http://www.tbsek.org/sisters/teresa-urrutia" },
 
-	//Alpha Sigma 2014 AΣ
+  //Alpha Sigma 2014 AΣ
 	{"name": "Georgina Morones",        "class": "2014 AΣ", "active": "n", "parent": "Jessica Leatherman", "bio": "" },
 	{"name": "Katie Morrett",        "class": "2014 AΣ", "active": "n", "parent": "Hanna Kim", "bio": "" },
 	{"name": "Kiyo Kanauchi",        "class": "2014 AΣ", "active": "n", "parent": "Christine Canilao", "bio": "" },
@@ -232,7 +232,7 @@ var data = [
 	{"name": "Jose Velasquez",        "class": "2014 AΣ", "active": "n", "parent": "Alex Nguyen", "bio": "http://www.tbsek.org/sisters/jose-velasquez" },
 	{"name": "Bryce Wong",        "class": "2014 AΣ", "active": "n", "parent": "Vivian Liao", "bio": "http://www.tbsek.org/sisters/bryce-wong" },
 
-	//Alpha Tau 2015 AT
+  //Alpha Tau 2015 AT
 	{"name": "Bob Brusch",        "class": "2015 AT", "active": "n", "parent": "Victoria Tao", "bio": "http://www.tbsek.org/sisters/bob-brusch" },
 	{"name": "Ileana Callejas",        "class": "2015 AT", "active": "n", "parent": "Giselle Guillen", "bio": "http://www.tbsek.org/sisters/ileana-callejas" },
 	{"name": "Susana Carlos",        "class": "2015 AT", "active": "n", "parent": "Andrea Madrigal", "bio": "http://www.tbsek.org/sisters/susana-carlos" },
@@ -248,7 +248,7 @@ var data = [
 	{"name": "Shayna Warner",        "class": "2015 AT", "active": "n", "parent": "Bryce Wong", "bio": "http://www.tbsek.org/sisters/shayna-warner" },
 	{"name": "Theo Wu",        "class": "2015 AT", "active": "n", "parent": "Jose Velasquez", "bio": "http://www.tbsek.org/sisters/theo-wu"},
 
-	//Alpha Upsilon 2016 AY
+  //Alpha Upsilon 2016 AY
 	{"name": "Emily Tsai",        "class": "2016 AY", "active": "n", "parent": "Theo Wu", "bio": "http://www.tbsek.org/sisters/emily-tsai"},
 	{"name": "Sharla Barlan",        "class": "2016 AY", "active": "n", "parent": "Liana Kindler", "bio": "http://www.tbsek.org/sisters/sharla-barlan"},
 	{"name": "Connie Chen",        "class": "2016 AY", "active": "n", "parent": "Ali Abele", "bio": "http://www.tbsek.org/sisters/connie-chen"},
@@ -264,7 +264,7 @@ var data = [
 	{"name": "Tesslyn Knapp",        "class": "2016 AY", "active": "n", "parent": "Anna Hubel", "bio": "http://www.tbsek.org/sisters/tesslyn-knapp"},
 	{"name": "Daven-Anthony Lagman",        "class": "2016 AY", "active": "n", "parent": "Thomas Smith", "bio": "http://www.tbsek.org/sisters/daven-anthony-lagman"},
 
-	//Alpha Phi 2017 AΦ
+  //Alpha Phi 2017 AΦ
 	{"name": "Alexa Camacho Sanchez",        "class": "2017 AΦ", "active": "n", "parent": "Mariah Tumbaga"},
 	{"name": "Angel Coronado",        "class": "2017 AΦ", "active": "n", "parent": "Daven-Anthony Lagman"},
 	{"name": "Chris Calles",        "class": "2017 AΦ", "active": "n", "parent": "Theo Wu"},
@@ -297,85 +297,99 @@ var data = [
 
   //Alpha Chi 2018 AΧ
 	{"name": "Andy Nguyen",        "class": "2018 AΧ", "active": "y", "parent": "Sarah Jensen"},
-  {"name": "Aylin Henstridge",        "class": "2018 AΧ", "active": "y", "parent": "Natalie Aranda"},
-  {"name": "Collin Lantz",        "class": "2018 AΧ", "active": "y", "parent": "Martin Trang"},
-  {"name": "Daniela Hernandez",        "class": "2018 AΧ", "active": "n", "parent": "Kelly Flood"},
-  {"name": "Emma Atkins",        "class": "2018 AΧ", "active": "n", "parent": "Tabetha Van Heest"},
-  {"name": "Ethan Brandt",        "class": "2018 AΧ", "active": "y", "parent": "Emma Suchard"},
-  {"name": "Jaquelyn Panaro",        "class": "2018 AΧ", "active": "n", "parent": "Nique Stumbaugh"},
-  {"name": "James Eichenbaum",        "class": "2018 AΧ", "active": "y", "parent": "Shelby Olson"},
-  {"name": "Jana Boksan",        "class": "2018 AΧ", "active": "y", "parent": "Jordan Briggs"},
-  {"name": "Jazmine Stringfellow",        "class": "2018 AΧ", "active": "n", "parent": "Alexa Camacho Sanchez"},
-  {"name": "Kerianne Brennan",        "class": "2018 AΧ", "active": "y", "parent": "Julianne Zingmond"},
-  {"name": "Leo Pfeiffer",        "class": "2018 AΧ", "active": "y", "parent": "Owen Saites"},
-  {"name": "Nathan Culcasi",        "class": "2018 AΧ", "active": "n", "parent": "Marcus Veal"},
-  {"name": "Phoebe Miller",        "class": "2018 AΧ", "active": "n", "parent": "Angel Coronado"},
-  {"name": "Sam Clark",        "class": "2018 AΧ", "active": "n", "parent": "Kelly Vines"},
-  {"name": "Siobhan Chapman",        "class": "2018 AΧ", "active": "n", "parent": "Kyle Reidy"},
-  {"name": "Tom Condon",        "class": "2018 AΧ", "active": "n", "parent": "Chris Calles"},
-  {"name": "Jeremy Huang",        "class": "2018 AΧ", "active": "n", "parent": "Steven Candelaria"},
+	{"name": "Aylin Henstridge",        "class": "2018 AΧ", "active": "y", "parent": "Natalie Aranda"},
+	{"name": "Collin Lantz",        "class": "2018 AΧ", "active": "y", "parent": "Martin Trang"},
+	{"name": "Daniela Hernandez",        "class": "2018 AΧ", "active": "n", "parent": "Kelly Flood"},
+	{"name": "Emma Atkins",        "class": "2018 AΧ", "active": "n", "parent": "Tabetha Van Heest"},
+	{"name": "Ethan Brandt",        "class": "2018 AΧ", "active": "y", "parent": "Emma Suchard"},
+	{"name": "Jaquelyn Panaro",        "class": "2018 AΧ", "active": "n", "parent": "Nique Stumbaugh"},
+	{"name": "James Eichenbaum",        "class": "2018 AΧ", "active": "y", "parent": "Shelby Olson"},
+	{"name": "Jana Boksan",        "class": "2018 AΧ", "active": "y", "parent": "Jordan Briggs"},
+	{"name": "Jazmine Stringfellow",        "class": "2018 AΧ", "active": "n", "parent": "Alexa Camacho Sanchez"},
+	{"name": "Kerianne Brennan",        "class": "2018 AΧ", "active": "y", "parent": "Julianne Zingmond"},
+	{"name": "Leo Pfeiffer",        "class": "2018 AΧ", "active": "y", "parent": "Owen Saites"},
+	{"name": "Nathan Culcasi",        "class": "2018 AΧ", "active": "n", "parent": "Marcus Veal"},
+	{"name": "Phoebe Miller",        "class": "2018 AΧ", "active": "n", "parent": "Angel Coronado"},
+	{"name": "Sam Clark",        "class": "2018 AΧ", "active": "n", "parent": "Kelly Vines"},
+	{"name": "Siobhan Chapman",        "class": "2018 AΧ", "active": "n", "parent": "Kyle Reidy"},
+	{"name": "Tom Condon",        "class": "2018 AΧ", "active": "n", "parent": "Chris Calles"},
+	{"name": "Jeremy Huang",        "class": "2018 AΧ", "active": "n", "parent": "Steven Candelaria"},
 
   //Alpha Psi 2019 AΨ
 	{"name": "Amber Tien",        "class": "2019 AΨ", "active": "n", "parent": "Siobhan Chapman"},
-  {"name": "Annabel Li",        "class": "2019 AΨ", "active": "y", "parent": "Marcus Veal"},
-  {"name": "Ashley Arellano",        "class": "2019 AΨ", "active": "n", "parent": "Delacey Rodriguez"},
-  {"name": "Blanca Carla Arriaga",        "class": "2019 AΨ", "active": "n", "parent": "Cheyenne Suzukawa"},
-  {"name": "Diana Greenwood",        "class": "2019 AΨ", "active": "n", "parent": "Delaney Proudfoot"},
-  {"name": "Elizabeth Gallmeister",        "class": "2019 AΨ", "active": "y", "parent": "Claire Locke"},
-  {"name": "Ethan Kim",        "class": "2019 AΨ", "active": "y", "parent": "Jeremy Huang"},
-  {"name": "Isaac Boris",        "class": "2019 AΨ", "active": "n", "parent": "Phoebe Miller"},
-  {"name": "Jazmin Aguila",        "class": "2019 AΨ", "active": "y", "parent": "Daniela Hernandez"},
-  {"name": "Johnny Urosevic",        "class": "2019 AΨ", "active": "y", "parent": "Collin Lantz"},
-  {"name": "Justin Cole",        "class": "2019 AΨ", "active": "y", "parent": "Leo Pfeiffer"},
-  {"name": "Madelyn Armes",        "class": "2019 AΨ", "active": "y", "parent": "Kerianne Brennan"},
-  {"name": "Makailah Hernandez",        "class": "2019 AΨ", "active": "y", "parent": "Jaquelyn Panaro"},
-  {"name": "Melissa Perrin",        "class": "2019 AΨ", "active": "y", "parent": "Jana Boksan"},
-  {"name": "Natasha Rodriguez",        "class": "2019 AΨ", "active": "n", "parent": "Emma Atkins"},
-  {"name": "Paolo Gaudiel",        "class": "2019 AΨ", "active": "y", "parent": "Andy Nguyen"},
-  {"name": "Shruti Indiresan",        "class": "2019 AΨ", "active": "y", "parent": "Aylin Henstridge"},
-  {"name": "Sierra Talbert",        "class": "2019 AΨ", "active": "y", "parent": "James Eichenbaum"},
-  {"name": "Yahaira Cortez",        "class": "2019 AΨ", "active": "y", "parent": "Alexis Elliot"},
+	{"name": "Annabel Li",        "class": "2019 AΨ", "active": "n", "parent": "Marcus Veal"},
+	{"name": "Ashley Arellano",        "class": "2019 AΨ", "active": "n", "parent": "Delacey Rodriguez"},
+	{"name": "Blanca Carla Arriaga",        "class": "2019 AΨ", "active": "n", "parent": "Cheyenne Suzukawa"},
+	{"name": "Diana Greenwood",        "class": "2019 AΨ", "active": "n", "parent": "Delaney Proudfoot"},
+	{"name": "Elizabeth Gallmeister",        "class": "2019 AΨ", "active": "n", "parent": "Claire Locke"},
+	{"name": "Ethan Kim",        "class": "2019 AΨ", "active": "n", "parent": "Jeremy Huang"},
+	{"name": "Isaac Boris",        "class": "2019 AΨ", "active": "n", "parent": "Phoebe Miller"},
+	{"name": "Jazmin Aguila",        "class": "2019 AΨ", "active": "n", "parent": "Daniela Hernandez"},
+	{"name": "Johnny Urosevic",        "class": "2019 AΨ", "active": "n", "parent": "Collin Lantz"},
+	{"name": "Justin Cole",        "class": "2019 AΨ", "active": "n", "parent": "Leo Pfeiffer"},
+	{"name": "Madelyn Armes",        "class": "2019 AΨ", "active": "n", "parent": "Kerianne Brennan"},
+	{"name": "Makailah Hernandez",        "class": "2019 AΨ", "active": "n", "parent": "Jaquelyn Panaro"},
+	{"name": "Melissa Perrin",        "class": "2019 AΨ", "active": "n", "parent": "Jana Boksan"},
+	{"name": "Natasha Rodriguez",        "class": "2019 AΨ", "active": "n", "parent": "Emma Atkins"},
+	{"name": "Paolo Gaudiel",        "class": "2019 AΨ", "active": "n", "parent": "Andy Nguyen"},
+	{"name": "Shruti Indiresan",        "class": "2019 AΨ", "active": "n", "parent": "Aylin Henstridge"},
+	{"name": "Sierra Talbert",        "class": "2019 AΨ", "active": "n", "parent": "James Eichenbaum"},
+	{"name": "Yahaira Cortez",        "class": "2019 AΨ", "active": "n", "parent": "Alexis Elliot"},
 
   //Alpha Omega 2020 AΩ
 	{"name": "Cecilia Luisa Porras",        "class": "2020 AΩ", "active": "y", "parent": "Shruti Indiresan"},
-  {"name": "Deborah Gallego",        "class": "2020 AΩ", "active": "y", "parent": "Jazmin Aguila"},
-  {"name": "Elija Balanga",        "class": "2020 AΩ", "active": "y", "parent": "Andy Nguyen"},
-  {"name": "Elizabeth Gulli",        "class": "2020 AΩ", "active": "y", "parent": "Melissa Perrin"},
-  {"name": "Erik Tompkins",        "class": "2020 AΩ", "active": "y", "parent": "Johnny Urosevic"},
-  {"name": "Ethan Chen",        "class": "2020 AΩ", "active": "y", "parent": "Diana Greenwood"},
-  {"name": "Gerald Bernal",        "class": "2020 AΩ", "active": "y", "parent": "Blanca Carla Arriaga"},
-  {"name": "Ivan Briceño",        "class": "2020 AΩ", "active": "y", "parent": "Yahaira Cortez"},
-  {"name": "Jared Yuge",        "class": "2020 AΩ", "active": "y", "parent": "Ethan Kim"},
-  {"name": "Katy Rucker",        "class": "2020 AΩ", "active": "y", "parent": "Kyle Reidy"},
-  {"name": "Lorraine Sim",        "class": "2020 AΩ", "active": "y", "parent": "Leo Pfeiffer"},
-  {"name": "Marco Cornelio",        "class": "2020 AΩ", "active": "y", "parent": "Annabel Li"},
-  {"name": "Niels Dawson",        "class": "2020 AΩ", "active": "y", "parent": "Aylin Henstridge"},
-  {"name": "Pamela Jansen",        "class": "2020 AΩ", "active": "y", "parent": "Madelyn Armes"},
-  {"name": "Raghu Tekumalla",        "class": "2020 AΩ", "active": "y", "parent": "Chris Calles"},
-  {"name": "Ryo Shiratori ",        "class": "2020 AΩ", "active": "y", "parent": "Cheyenne Suzukawa"},
-  {"name": "Sophie Robbins",        "class": "2020 AΩ", "active": "y", "parent": "Elizabeth Gallmeister"},
-  {"name": "Tess Louie",        "class": "2020 AΩ", "active": "y", "parent": "Sierra Talbert"},
-  {"name": "Victoria Sanchez",        "class": "2020 AΩ", "active": "y", "parent": "Paolo Gaudiel"},
-  {"name": "Xitlaly Lopez",        "class": "2020 AΩ", "active": "n", "parent": "Emma Atkins"},
-  {"name": "Yoselin Guzman",        "class": "2020 AΩ", "active": "y", "parent": "Blanca Carla Arriaga"},
-  {"name": "Zachary Judson",        "class": "2020 AΩ", "active": "y", "parent": "Ethan Brandt"},
+	{"name": "Deborah Gallego",        "class": "2020 AΩ", "active": "y", "parent": "Jazmin Aguila"},
+	{"name": "Elija Balanga",        "class": "2020 AΩ", "active": "y", "parent": "Andy Nguyen"},
+	{"name": "Elizabeth Gulli",        "class": "2020 AΩ", "active": "y", "parent": "Melissa Perrin"},
+	{"name": "Erik Tompkins",        "class": "2020 AΩ", "active": "y", "parent": "Johnny Urosevic"},
+	{"name": "Ethan Chen",        "class": "2020 AΩ", "active": "n", "parent": "Diana Greenwood"},
+	{"name": "Gerald Bernal",        "class": "2020 AΩ", "active": "y", "parent": "Blanca Carla Arriaga"},
+	{"name": "Ivan Briceño",        "class": "2020 AΩ", "active": "n", "parent": "Yahaira Cortez"},
+	{"name": "Jared Yuge",        "class": "2020 AΩ", "active": "y", "parent": "Ethan Kim"},
+	{"name": "Katy Rucker",        "class": "2020 AΩ", "active": "n", "parent": "Kyle Reidy"},
+	{"name": "Lorraine Sim",        "class": "2020 AΩ", "active": "y", "parent": "Leo Pfeiffer"},
+	{"name": "Marco Cornelio",        "class": "2020 AΩ", "active": "y", "parent": "Annabel Li"},
+	{"name": "Niels Dawson",        "class": "2020 AΩ", "active": "y", "parent": "Aylin Henstridge"},
+	{"name": "Pamela Jansen",        "class": "2020 AΩ", "active": "y", "parent": "Madelyn Armes"},
+	{"name": "Raghu Tekumalla",        "class": "2020 AΩ", "active": "n", "parent": "Chris Calles"},
+	{"name": "Ryo Shiratori ",        "class": "2020 AΩ", "active": "y", "parent": "Cheyenne Suzukawa"},
+	{"name": "Sophie Robbins",        "class": "2020 AΩ", "active": "y", "parent": "Elizabeth Gallmeister"},
+	{"name": "Tess Louie",        "class": "2020 AΩ", "active": "y", "parent": "Sierra Talbert"},
+	{"name": "Victoria Sanchez",        "class": "2020 AΩ", "active": "y", "parent": "Paolo Gaudiel"},
+	{"name": "Xitlaly Lopez",        "class": "2020 AΩ", "active": "n", "parent": "Emma Atkins"},
+	{"name": "Yoselin Guzman",        "class": "2020 AΩ", "active": "n", "parent": "Blanca Carla Arriaga"},
+	{"name": "Zachary Judson",        "class": "2020 AΩ", "active": "n", "parent": "Ethan Brandt"},
 
   //Beta Alpha 2021 ΒΑ
-  {"name": "Amanda Leyel",        "class": "2021 ΒΑ", "active": "y", "parent": "Marco Cornelio"},
-  {"name": "Ben Sandstrom",        "class": "2021 ΒΑ", "active": "y", "parent": "Lorraine Sim"},
-  {"name": "Cameron Brewer",        "class": "2021 ΒΑ", "active": "y", "parent": "Cecilia Luisa Porras"},
-  {"name": "Carol Mulumba",        "class": "2021 ΒΑ", "active": "y", "parent": "Deborah Gallego"},
-  {"name": "Connor Ridley",        "class": "2021 ΒΑ", "active": "y", "parent": "Lorraine Sim"},
-  {"name": "Desiree Alvarado",        "class": "2021 ΒΑ", "active": "y", "parent": "Niels Dawson"},
-  {"name": "Emma Gloyer",        "class": "2021 ΒΑ", "active": "y", "parent": "Elizabeth Gulli"},
-  {"name": "Jovan Romo",        "class": "2021 ΒΑ", "active": "y", "parent": "Raghu Tekumalla"},
-  {"name": "Kenzie Hernandez",        "class": "2021 ΒΑ", "active": "y", "parent": "Zachary Judson"},
-  {"name": "Mia Riedel",        "class": "2021 ΒΑ", "active": "y", "parent": "Pamela Jansen"},
-  {"name": "Nohemi Garcia Soto",        "class": "2021 ΒΑ", "active": "y", "parent": "Tess Louie"},
-  {"name": "Tatiana Duckworth",        "class": "2021 ΒΑ", "active": "y", "parent": "Madelyn Armes"},
-  {"name": "Yasmith Farnan",        "class": "2021 ΒΑ", "active": "y", "parent": "Victoria Sanchez"},
-
-
+	{"name": "Amanda Leyel",        "class": "2021 ΒΑ", "active": "y", "parent": "Marco Cornelio"},
+	{"name": "Ben Sandstrom",        "class": "2021 ΒΑ", "active": "n", "parent": "Lorraine Sim"},
+	{"name": "Cameron Brewer",        "class": "2021 ΒΑ", "active": "y", "parent": "Cecilia Luisa Porras"},
+	{"name": "Carol Mulumba",        "class": "2021 ΒΑ", "active": "y", "parent": "Deborah Gallego"},
+	{"name": "Connor Ridley",        "class": "2021 ΒΑ", "active": "y", "parent": "Lorraine Sim"},
+	{"name": "Desiree Alvarado",        "class": "2021 ΒΑ", "active": "y", "parent": "Niels Dawson"},
+	{"name": "Emma Gloyer",        "class": "2021 ΒΑ", "active": "y", "parent": "Elizabeth Gulli"},
+	{"name": "Jovan Romo",        "class": "2021 ΒΑ", "active": "y", "parent": "Raghu Tekumalla"},
+	{"name": "Kenzie Hernandez",        "class": "2021 ΒΑ", "active": "n", "parent": "Zachary Judson"},
+	{"name": "Mia Riedel",        "class": "2021 ΒΑ", "active": "y", "parent": "Pamela Jansen"},
+	{"name": "Nohemi Garcia Soto",        "class": "2021 ΒΑ", "active": "y", "parent": "Tess Louie"},
+	{"name": "Tatiana Duckworth",        "class": "2021 ΒΑ", "active": "n", "parent": "Madelyn Armes"},
+	{"name": "Yasmith Farnan",        "class": "2021 ΒΑ", "active": "y", "parent": "Victoria Sanchez"},
+	
+  //Beta Beta 2022 ΒB
+	{"name": "Aviv Shifrin",        "class": "2022 ΒB", "active": "y", "parent": "Tatiana Duckworth"},
+	{"name": "Cris Ochoa",        "class": "2022 ΒB", "active": "y", "parent": "Nohemi Garcia Soto"},
+	{"name": "LT Tarara",        "class": "2022 ΒB", "active": "y", "parent": "Marco Cornelio"},
+	{"name": "Emma Blakely",        "class": "2022 ΒB", "active": "y", "parent": "Cameron Brewer"},
+	{"name": "Faith Shortridge",        "class": "2022 ΒB", "active": "y", "parent": "Yasmith Farnan"},
+	{"name": "Katherine Escobar",        "class": "2022 ΒB", "active": "y", "parent": "Cameron Brewer"},
+	{"name": "Kathy Rodriguez",        "class": "2022 ΒB", "active": "y", "parent": "Tatiana Duckworth"},
+	{"name": "Kristal Light",        "class": "2022 ΒB", "active": "y", "parent": "Mia Riedel"},
+	{"name": "Marin Schneider",        "class": "2022 ΒB", "active": "y", "parent": "Amanda Leyel"},
+	{"name": "Matthew Niiya",        "class": "2022 ΒB", "active": "y", "parent": "Amanda Leyel"},
+	{"name": "Maxine Knystautas",        "class": "2022 ΒB", "active": "y", "parent": "Mia Riedel"},
+	{"name": "Sylvia Rutkowski",        "class": "2022 ΒB", "active": "y", "parent": "Jovan Romo"},
+	{"name": "Trevor Fermin",        "class": "2022 ΒB", "active": "y", "parent": "Jovan Romo"},
+	
 ];
 
 
@@ -505,7 +519,7 @@ function update(source) {
 	.style("fill", function(d) {
 	    if ( d._children )
 		return "royalblue";
-	    if ( d.class === "2022 ΒΒ" )
+	    if ( d.class === "2023 ΒΓ" )
 		return "#C2E0FF";
 	    if ( d.active === "y" )
 		return "gold";
