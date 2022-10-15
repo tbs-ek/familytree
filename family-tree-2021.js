@@ -390,6 +390,7 @@ var data = [
 	{"name": "Maxine Knystautas",        "class": "2022 ΒB", "active": "y", "parent": "Mia Riedel"},
 	{"name": "Sylvia Rutkowski",        "class": "2022 ΒB", "active": "y", "parent": "Jovan Romo"},
 	{"name": "Trevor Fermin",        "class": "2022 ΒB", "active": "y", "parent": "Jovan Romo"},
+	{"name": "Yuki Minowa",        "class": "2022 ΒB", "active": "n", "parent": "Ethan Chen"},
 	
 ];
 
