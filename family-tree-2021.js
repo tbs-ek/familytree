@@ -296,18 +296,18 @@ var data = [
 	{"name": "Talia Fossa",        "class": "2017 AΦ", "active": "n", "parent": "Hannah Markovic"},
 
   //Alpha Chi 2018 AΧ
-	{"name": "Andy Nguyen",        "class": "2018 AΧ", "active": "y", "parent": "Sarah Jensen"},
-	{"name": "Aylin Henstridge",        "class": "2018 AΧ", "active": "y", "parent": "Natalie Aranda"},
-	{"name": "Collin Lantz",        "class": "2018 AΧ", "active": "y", "parent": "Martin Trang"},
+	{"name": "Andy Nguyen",        "class": "2018 AΧ", "active": "n", "parent": "Sarah Jensen"},
+	{"name": "Aylin Henstridge",        "class": "2018 AΧ", "active": "n", "parent": "Natalie Aranda"},
+	{"name": "Collin Lantz",        "class": "2018 AΧ", "active": "n", "parent": "Martin Trang"},
 	{"name": "Daniela Hernandez",        "class": "2018 AΧ", "active": "n", "parent": "Kelly Flood"},
 	{"name": "Emma Atkins",        "class": "2018 AΧ", "active": "n", "parent": "Tabetha Van Heest"},
-	{"name": "Ethan Brandt",        "class": "2018 AΧ", "active": "y", "parent": "Emma Suchard"},
+	{"name": "Ethan Brandt",        "class": "2018 AΧ", "active": "n", "parent": "Emma Suchard"},
 	{"name": "Jaquelyn Panaro",        "class": "2018 AΧ", "active": "n", "parent": "Nique Stumbaugh"},
-	{"name": "James Eichenbaum",        "class": "2018 AΧ", "active": "y", "parent": "Shelby Olson"},
-	{"name": "Jana Boksan",        "class": "2018 AΧ", "active": "y", "parent": "Jordan Briggs"},
+	{"name": "James Eichenbaum",        "class": "2018 AΧ", "active": "n", "parent": "Shelby Olson"},
+	{"name": "Jana Boksan",        "class": "2018 AΧ", "active": "n", "parent": "Jordan Briggs"},
 	{"name": "Jazmine Stringfellow",        "class": "2018 AΧ", "active": "n", "parent": "Alexa Camacho Sanchez"},
-	{"name": "Kerianne Brennan",        "class": "2018 AΧ", "active": "y", "parent": "Julianne Zingmond"},
-	{"name": "Leo Pfeiffer",        "class": "2018 AΧ", "active": "y", "parent": "Owen Saites"},
+	{"name": "Kerianne Brennan",        "class": "2018 AΧ", "active": "n", "parent": "Julianne Zingmond"},
+	{"name": "Leo Pfeiffer",        "class": "2018 AΧ", "active": "n", "parent": "Owen Saites"},
 	{"name": "Nathan Culcasi",        "class": "2018 AΧ", "active": "n", "parent": "Marcus Veal"},
 	{"name": "Phoebe Miller",        "class": "2018 AΧ", "active": "n", "parent": "Angel Coronado"},
 	{"name": "Sam Clark",        "class": "2018 AΧ", "active": "n", "parent": "Kelly Vines"},
@@ -428,7 +428,7 @@ data.forEach(function(node) {
 
 // ************** Generate the tree diagram  *****************
 var margin = {top: 20, right: 20, bottom: 20, left: 120},
-width = 3800 - margin.right - margin.left,
+width = 4100 - margin.right - margin.left,
 height = 3000 - margin.top - margin.bottom;
 
 var i = 0,
