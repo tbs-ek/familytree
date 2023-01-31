@@ -399,7 +399,7 @@ var data = [
 	{"name": "Aaliyah Kueffner",        "class": "2023 ΒG", "active": "y", "parent": "Kathy Rodriguez"},
 	{"name": "Rithika Charles",        "class": "2023 ΒG", "active": "y", "parent": "Trevor Fermin"},
 	{"name": "Keira Okada",        "class": "2023 ΒG", "active": "y", "parent": "Faith Shortridge"},
-	{"name": "Citlali Ortiz",        "class": "2023 ΒG", "active": "y", "parent": "Emma Blakely"},
+	{"name": "Citlaly Ortiz",        "class": "2023 ΒG", "active": "y", "parent": "Emma Blakely"},
 ];
 
 
