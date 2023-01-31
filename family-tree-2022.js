@@ -392,6 +392,14 @@ var data = [
 	{"name": "Trevor Fermin",        "class": "2022 ΒB", "active": "y", "parent": "Jovan Romo"},
 	{"name": "Yuki Minowa",        "class": "2022 ΒB", "active": "n", "parent": "Ethan Chen"},
 	
+  //Beta Gamma 2023 BG
+	{"name": "Neeti Indiresan",        "class": "2023 ΒG", "active": "y", "parent": "Kristal Light"},
+	{"name": "Madison Muggeo",        "class": "2023 ΒG", "active": "y", "parent": "LT Tarara"},
+	{"name": "Bella Benavides",        "class": "2023 ΒG", "active": "y", "parent": "Cris Ochoa"},
+	{"name": "Aaliyah Kueffner",        "class": "2023 ΒG", "active": "y", "parent": "Kathy Rodriguez"},
+	{"name": "Rithika Charles",        "class": "2023 ΒG", "active": "y", "parent": "Trevor Fermin"},
+	{"name": "Keira Okada",        "class": "2023 ΒG", "active": "y", "parent": "Faith Shortridge"},
+	{"name": "Citlali Ortiz",        "class": "2023 ΒG", "active": "y", "parent": "Emma Blakely"},
 ];
 
 
