@@ -377,12 +377,12 @@ var data = [
 	
   //Beta Beta 2022 ΒB
 	{"name": "Aviv Shifrin",        "class": "2022 ΒB", "active": "y", "parent": "Tatiana Duckworth"},
-	{"name": "Cris Ochoa",        "class": "2022 ΒB", "active": "y", "parent": "Nohemi Garcia Soto"},
+	{"name": "Cris Ochoa",        "class": "2022 ΒB", "active": "n", "parent": "Nohemi Garcia Soto"},
 	{"name": "LT Tarara",        "class": "2022 ΒB", "active": "y", "parent": "Marco Cornelio"},
 	{"name": "Emma Blakely",        "class": "2022 ΒB", "active": "y", "parent": "Cameron Brewer"},
 	{"name": "Faith Shortridge",        "class": "2022 ΒB", "active": "y", "parent": "Yasmith Farnan"},
-	{"name": "Katherine Escobar",        "class": "2022 ΒB", "active": "y", "parent": "Cameron Brewer"},
-	{"name": "Kathy Rodriguez",        "class": "2022 ΒB", "active": "y", "parent": "Tatiana Duckworth"},
+	{"name": "Katherine Escobar",        "class": "2022 ΒB", "active": "n", "parent": "Cameron Brewer"},
+	{"name": "Kathy Rodriguez",        "class": "2022 ΒB", "active": "n", "parent": "Tatiana Duckworth"},
 	{"name": "Kristal Light",        "class": "2022 ΒB", "active": "y", "parent": "Mia Riedel"},
 	{"name": "Marin Schneider",        "class": "2022 ΒB", "active": "y", "parent": "Amanda Leyel"},
 	{"name": "Myrsini Melia San Marchi",        "class": "2022 ΒB", "active": "n", "parent": "Emma Gloyer"},
@@ -397,9 +397,9 @@ var data = [
 	{"name": "Madison Muggeo",        "class": "2023 ΒΓ", "active": "y", "parent": "LT Tarara"},
 	{"name": "Bella Benavides",        "class": "2023 ΒΓ", "active": "y", "parent": "Cris Ochoa"},
 	{"name": "Aaliyah Kueffner",        "class": "2023 ΒΓ", "active": "y", "parent": "Kathy Rodriguez"},
-	{"name": "Rithika Charles",        "class": "2023 ΒΓ", "active": "y", "parent": "Trevor Fermin"},
+	{"name": "Rithika Charles",        "class": "2023 ΒΓ", "active": "n", "parent": "Trevor Fermin"},
 	{"name": "Keira Okada",        "class": "2023 ΒΓ", "active": "y", "parent": "Faith Shortridge"},
-	{"name": "Citlaly Ortiz",        "class": "2023 ΒΓ", "active": "y", "parent": "Emma Blakely"},
+	{"name": "Citlaly Ortiz",        "class": "2023 ΒΓ", "active": "n", "parent": "Emma Blakely"},
 ];
 
 
@@ -410,7 +410,7 @@ var data = [
 
 var data; // a global
 
-$.getJSON("family-tree-2021.json", function(json) {
+$.getJSON("family-tree-2023.json", function(json) {
     console.log(json[0].name); // this will show the info it in firebug console
 });
 
@@ -529,7 +529,7 @@ function update(source) {
 	.style("fill", function(d) {
 	    if ( d._children )
 		return "royalblue";
-	    if ( d.class === "2023 ΒΓ" )
+	    if ( d.class === "2023 ΒD" )
 		return "#C2E0FF";
 	    if ( d.active === "y" )
 		return "gold";
